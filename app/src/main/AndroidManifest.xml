@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pavishka.coloring.book">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:name="pavishka.coloring.book.Activities.Screens.ScreenMyApplicationAlongWithOneSingal"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenManualDrawActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenBabyFunActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenFillColorActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenInitiateActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenCrackersActivity"
+            android:configChanges="screenSize|orientation"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Manager.Chart.ScreenChartDrawActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Manager.Chart.ScreenChartBluePrintGridActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Manager.PhotoEditor.NewImageActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Manager.PhotoEditor.ScreenChoosePhotoActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_AppCompat_Light_NoActionBar_FullScreen" />
+        <activity
+            android:name="pavishka.coloring.book.VectorArt.ScreenPixelSkillActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.VectorArt.ScreenCardingPixbasedActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenOwnProducts"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenTapkaJodoActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenMapsFindActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.MainActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenIncomeActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenDelayActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenGridColoringBook"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenSkillActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenManualColorDrawingActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenFourLagActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreensuperheroActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenFifaActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenRamkadaActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenAkarActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenEatActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenJuiceActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenMovableActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenDailingActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenABCActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenMyPopup"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme_Transparent" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenFnishGamePopup"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenSharePopup"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme_Transparent" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenManualTop"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.OtherScreens.ScreenConfigActivity"
+            android:theme="@style/Theme_AppCompat_Translucent" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenDashBoardActivity"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenDecemberActivity"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenPhotoFrameActivity"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenItemsActivity"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="pavishka.coloring.book.Activities.Screens.ScreenSamViewActivity"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+
+        <provider
+            android:name="pavishka.coloring.book.Manager.PhotoEditor.FileProvider"
+            android:authorities="pavishka.coloring.book.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+    </application>
+</manifest>

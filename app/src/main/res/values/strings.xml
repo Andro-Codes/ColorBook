@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Coloring book</string>
+
+    <string name="black_bat">Bat</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="cancel">Cancel</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear">Clear Progress?</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="delete">Delete?</string>
+    <string name="empty">Empty</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="label">Label</string>
+    <string name="longpress">Press and Hold to Open</string>
+    <string name="msg_save_coloring_pages">Do you want to save Coloring Pages on this device?\n\nPlease Press and Hold the Next Button and then click Allow</string>
+    <string name="msg_save_coloring_pages2">STORAGE ACCESS DENIED\n\nSave Coloring Pages on this device?\n\nGo to App Permissions -&gt; Storage -&gt; Allow storage access for this app</string>
+    <string name="mute">Please TurnOn sound in Setting</string>
+    <string name="new_page_question">Save painting before open new page?</string>
+    <string name="no">No</string>
+    <string name="noInternet">Please Check Your Internet Connection!!</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_picture_title">Save Picture?</string>
+    <string name="yes">Yes</string>
+
+    <string name="credit1">Thanks to My Goddess</string>
+    <string name="credit2">AKKAMMAL SITHAMMAL</string>
+    <string name="credit3">Thanks to my Parents:</string>
+    <string name="credit4">K Sreenivasan &amp; Rathna</string>
+    <string name="credit5">Inspiration &amp; Creative Ideas :-</string>
+    <string name="credit6">Dr.N.N.Krishna Veni (Akshi Play School)</string>
+    <string name="credit7">Dr.Sampath Kannan (Sri Kanna Metric Higher Secondary School)</string>
+    <string name="credit8">Reshma Arun (Age Proof Makeup &amp; Cosmetics Store)</string>
+    <string name="credit9">Send your Feedbacks to :-</string>
+    <string name="credit10">Pavishka Games</string>
+    <string name="credit11">abirami.renjith@pavishka.com</string>
+    <string name="credit12">www.pavishka.com</string>
+
+    <string name="credit51">GAME CREDITS :-</string>
+    <string name="credit61">Dr.Sampath Kannan (Sri Kanna Metric Higher Secondary School)</string>
+    <string name="credit71">Er. Jayaram Prakash (Designer,Square Arc)</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>

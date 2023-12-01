@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "83358754512",
+    "project_id": "colorbook-game",
+    "storage_bucket": "colorbook-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83358754512:android:38a6db255cf7612011a0d5",
+        "android_client_info": {
+          "package_name": "pavishka.coloring.book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83358754512-6je7r6h4vcon8tvkcj6c6ge3h1s4dmk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8LZVgf4g2JTa_R_1fEiywKFDbUT-cKoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83358754512-6je7r6h4vcon8tvkcj6c6ge3h1s4dmk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

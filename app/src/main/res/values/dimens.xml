@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ATextSize">75dp</dimen>
+    <dimen name="Textsize10">15dp</dimen>
+    <dimen name="Textsize12">18dp</dimen>
+    <dimen name="Textsize15">22.5dp</dimen>
+    <dimen name="Textsize2">1.67dp</dimen>
+    <dimen name="Textsize20">30dp</dimen>
+    <dimen name="Textsize220">330dp</dimen>
+    <dimen name="Textsize30">45dp</dimen>
+    <dimen name="Textsize3a">4.5dp</dimen>
+    <dimen name="Textsize5">7.5dp</dimen>
+    <dimen name="Textsize50">75dp</dimen>
+    <dimen name="Textsize7">10.5dp</dimen>
+    <dimen name="setting_height">410dp</dimen>
+
+    <dimen name="gnt_default_margin">10dp</dimen>
+    <dimen name="gnt_text_size_small">12sp</dimen>
+    <dimen name="gnt_text_size_large">15sp</dimen>
+    <dimen name="gnt_ad_indicator_width">25dp</dimen>
+    <dimen name="gnt_ad_indicator_height">20dp</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">0dp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10sp</dimen>
+    <dimen name="gnt_no_margin">0dp</dimen>
+    <dimen name="gnt_no_size">0dp</dimen>
+    <dimen name="gnt_text_row_weight">0.25</dimen>
+</resources>
